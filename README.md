@@ -38,6 +38,13 @@ tried the next closest thing I could think of (to no avail)...
 	}
 ```
 
+Without a working key, the wait feature doesn't work, and when a page link is
+pressed the existing page, immediately disappears. (The new page comes in just
+fine, but the old page should follow the animation instructions according to
+it's own exit animation contained in the motion.div props. ) The expected
+behavior should look like this:
+https://youtu.be/WmvpJ4KX30s?si=MUt5kn3Mb6CMOGYn&t=621
+
 It's probably not an easy fix (like Oliver said) but it would be pretty cool to
 figure it out!
 
